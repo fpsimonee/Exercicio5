@@ -1,0 +1,83 @@
+﻿  main.cpp
+c:\mingw\include\winnt.h(3606): warning C4103: 'c:\mingw\include\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+c:\mingw\include\winnt.h(3908): warning C4103: 'c:\mingw\include\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+c:\mingw\include\winnt.h(4006): warning C4068: unknown pragma
+c:\mingw\include\winnt.h(4012): warning C4068: unknown pragma
+c:\mingw\include\winnt.h(4019): warning C4068: unknown pragma
+c:\mingw\include\winbase.h(1482): error C2144: syntax error : 'void' should be preceded by ';'
+c:\mingw\include\winbase.h(1482): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\winbase.h(1483): error C2144: syntax error : 'void' should be preceded by ';'
+c:\mingw\include\winbase.h(1483): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\winbase.h(1483): error C2086: 'int DECLSPEC_NORETURN' : redefinition
+          c:\mingw\include\winbase.h(1482) : see declaration of 'DECLSPEC_NORETURN'
+c:\mingw\include\winbase.h(1543): error C2144: syntax error : 'void' should be preceded by ';'
+c:\mingw\include\winbase.h(1543): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\winbase.h(1543): error C2086: 'int DECLSPEC_NORETURN' : redefinition
+          c:\mingw\include\winbase.h(1482) : see declaration of 'DECLSPEC_NORETURN'
+c:\mingw\include\rpcdce.h(369): error C2144: syntax error : 'void' should be preceded by ';'
+c:\mingw\include\rpcdce.h(369): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\rpcdce.h(369): error C2086: 'int DECLSPEC_NORETURN' : redefinition
+          c:\mingw\include\winbase.h(1482) : see declaration of 'DECLSPEC_NORETURN'
+c:\mingw\include\rpcdcep.h(89): error C3646: 'I_RpcAllocate' : unknown override specifier
+c:\mingw\include\rpcdcep.h(89): error C2091: function returns function
+c:\mingw\include\rpcdcep.h(89): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\shellapi.h(147): warning C4103: 'c:\mingw\include\shellapi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+c:\mingw\include\shellapi.h(289): warning C4103: 'c:\mingw\include\shellapi.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+c:\mingw\include\winsock2.h(545): error C3646: 'inet_ntoa' : unknown override specifier
+c:\mingw\include\winsock2.h(545): error C2091: function returns function
+c:\mingw\include\winsock2.h(545): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\winsock2.h(545): error C2733: 'DECLARE_STDCALL_P' : second C linkage of overloaded function not allowed
+          c:\mingw\include\rpcdcep.h(89) : see declaration of 'DECLARE_STDCALL_P'
+c:\mingw\include\winsock2.h(554): error C3646: 'gethostbyaddr' : unknown override specifier
+c:\mingw\include\winsock2.h(554): error C2091: function returns function
+c:\mingw\include\winsock2.h(554): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\winsock2.h(554): error C2733: 'DECLARE_STDCALL_P' : second C linkage of overloaded function not allowed
+          c:\mingw\include\winsock2.h(545) : see declaration of 'DECLARE_STDCALL_P'
+c:\mingw\include\winsock2.h(555): error C3646: 'gethostbyname' : unknown override specifier
+c:\mingw\include\winsock2.h(555): error C2091: function returns function
+c:\mingw\include\winsock2.h(555): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\winsock2.h(555): error C2556: 'int (__cdecl *DECLARE_STDCALL_P(hostent *))(const char *)' : overloaded function differs only by return type from 'int (__cdecl *DECLARE_STDCALL_P(hostent *))(const char *,int,int)'
+          c:\mingw\include\winsock2.h(554) : see declaration of 'DECLARE_STDCALL_P'
+c:\mingw\include\winsock2.h(555): error C2371: 'DECLARE_STDCALL_P' : redefinition; different basic types
+          c:\mingw\include\winsock2.h(554) : see declaration of 'DECLARE_STDCALL_P'
+c:\mingw\include\winsock2.h(556): error C3646: 'getservbyport' : unknown override specifier
+c:\mingw\include\winsock2.h(556): error C2091: function returns function
+c:\mingw\include\winsock2.h(556): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\winsock2.h(556): error C2733: 'DECLARE_STDCALL_P' : second C linkage of overloaded function not allowed
+          c:\mingw\include\winsock2.h(554) : see declaration of 'DECLARE_STDCALL_P'
+c:\mingw\include\winsock2.h(557): error C3646: 'getservbyname' : unknown override specifier
+c:\mingw\include\winsock2.h(557): error C2091: function returns function
+c:\mingw\include\winsock2.h(557): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\winsock2.h(557): error C2556: 'int (__cdecl *DECLARE_STDCALL_P(servent *))(const char *,const char *)' : overloaded function differs only by return type from 'int (__cdecl *DECLARE_STDCALL_P(servent *))(int,const char *)'
+          c:\mingw\include\winsock2.h(556) : see declaration of 'DECLARE_STDCALL_P'
+c:\mingw\include\winsock2.h(557): error C2371: 'DECLARE_STDCALL_P' : redefinition; different basic types
+          c:\mingw\include\winsock2.h(556) : see declaration of 'DECLARE_STDCALL_P'
+c:\mingw\include\winsock2.h(558): error C3646: 'getprotobynumber' : unknown override specifier
+c:\mingw\include\winsock2.h(558): error C2091: function returns function
+c:\mingw\include\winsock2.h(558): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\winsock2.h(558): error C2733: 'DECLARE_STDCALL_P' : second C linkage of overloaded function not allowed
+          c:\mingw\include\winsock2.h(556) : see declaration of 'DECLARE_STDCALL_P'
+c:\mingw\include\winsock2.h(559): error C3646: 'getprotobyname' : unknown override specifier
+c:\mingw\include\winsock2.h(559): error C2091: function returns function
+c:\mingw\include\winsock2.h(559): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\mingw\include\winsock2.h(559): error C2556: 'int (__cdecl *DECLARE_STDCALL_P(protoent *))(const char *)' : overloaded function differs only by return type from 'int (__cdecl *DECLARE_STDCALL_P(protoent *))(int)'
+          c:\mingw\include\winsock2.h(558) : see declaration of 'DECLARE_STDCALL_P'
+c:\mingw\include\winsock2.h(559): error C2371: 'DECLARE_STDCALL_P' : redefinition; different basic types
+          c:\mingw\include\winsock2.h(558) : see declaration of 'DECLARE_STDCALL_P'
+c:\mingw\include\stdio.h(334): error C2373: '__restrict__' : redefinition; different type modifiers
+          c:\mingw\include\stdio.h(334) : see declaration of '__restrict__'
+c:\mingw\include\stdio.h(337): error C2086: 'const char *__restrict__' : redefinition
+          c:\mingw\include\stdio.h(336) : see declaration of '__restrict__'
+c:\mingw\include\stdio.h(678): error C2143: syntax error : missing ')' before ';'
+c:\mingw\include\stdio.h(679): error C2062: type 'char' unexpected
+c:\mingw\include\stdio.h(679): error C2059: syntax error : ')'
+c:\mingw\include\stdio.h(680): error C2143: syntax error : missing ')' before ';'
+c:\mingw\include\stdio.h(681): error C2086: 'const wchar_t *__restrict__' : redefinition
+          c:\mingw\include\stdio.h(679) : see declaration of '__restrict__'
+c:\mingw\include\stdio.h(681): error C2062: type 'char' unexpected
+c:\mingw\include\stdio.h(681): error C2059: syntax error : ')'
+c:\users\felipe\documents\visual studio 2013\projects\winsock_server\winsock_server\main.cpp(19): error C3861: 'exit': identifier not found
+c:\users\felipe\documents\visual studio 2013\projects\winsock_server\winsock_server\main.cpp(24): error C3861: 'gethostbyname': identifier not found
+c:\users\felipe\documents\visual studio 2013\projects\winsock_server\winsock_server\main.cpp(28): error C3861: 'exit': identifier not found
+c:\users\felipe\documents\visual studio 2013\projects\winsock_server\winsock_server\main.cpp(34): error C3861: 'exit': identifier not found
+c:\users\felipe\documents\visual studio 2013\projects\winsock_server\winsock_server\main.cpp(55): error C3861: 'exit': identifier not found
